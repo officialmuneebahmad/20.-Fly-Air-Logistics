@@ -1,6 +1,6 @@
 # FLY AIR LOGISTICS - International Freight Forwarder Website
 
-Production-ready, high-performance brochure website for **FLY AIR LOGISTICS** (International Freight Forwarders), moving cargo worldwide from Pakistan since 2012 (with trade foundations established in the 1980s).
+Production-ready, high-performance brochure website for **FLY AIR LOGISTICS** (International Freight Forwarders), moving cargo worldwide from Pakistan since 2012 (with trade foundations established in the 1980s). 
 
 Built with **Next.js 15 (App Router)**, **TypeScript**, **Tailwind CSS**, and architected for global edge deployment on **Cloudflare Workers** using `@opennextjs/cloudflare`.
 
