@@ -5,9 +5,10 @@
   "scripts": {
     "prebuild": "node scripts/generate-blog.mjs",
     "dev": "node scripts/generate-blog.mjs && next dev",
-    "build": "node scripts/generate-blog.mjs && next build",
-    "start": "next start",
+    "build": "opennextjs-cloudflare build",
+    "build:next": "node scripts/generate-blog.mjs && next build",
     "build:worker": "opennextjs-cloudflare build",
+    "start": "next start",
     "preview": "opennextjs-cloudflare preview",
     "deploy": "opennextjs-cloudflare deploy"
   },

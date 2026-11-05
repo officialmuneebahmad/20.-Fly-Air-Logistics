@@ -8,18 +8,17 @@ compatibility_flags = ["nodejs_compat"]
 directory = ".open-next/assets"
 binding = "ASSETS"
 
-# Cloudflare R2 bucket binding for asset/image serving
-[[r2_buckets]]
-binding = "R2_BUCKET"
-bucket_name = "flyair-assets"
+# Optional Cloudflare R2 bucket binding (uncomment after creating via Cloudflare dashboard or wrangler r2 bucket create)
+# [[r2_buckets]]
+# binding = "R2_BUCKET"
+# bucket_name = "flyair-assets"
 
-# Cloudflare D1 Database binding for contact form persistence
-[[d1_databases]]
-binding = "DB"
-database_name = "flyair-db"
-database_id = "00000000-0000-0000-0000-000000000000"
+# Optional Cloudflare D1 Database binding (uncomment and add real database_id after creating via wrangler d1 create)
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "flyair-db"
+# database_id = "00000000-0000-0000-0000-000000000000"
 
 [vars]
 NEXTJS_ENV = "production"
 NEXT_PUBLIC_SITE_URL = "https://flyairlogistics.com"
-
