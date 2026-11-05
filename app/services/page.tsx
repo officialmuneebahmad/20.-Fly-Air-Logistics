@@ -32,6 +32,15 @@ export const metadata: Metadata = {
     description:
       "Comprehensive multi-modal freight solutions: Air Freight, Sea Freight (FCL/LCL), Customs Clearance, and Warehousing from Pakistan to worldwide.",
     url: "https://flyairlogistics.com/services",
+    images: [
+      {
+        url: "https://flyairlogistics.com/og-image.jpg",
+        secureUrl: "https://flyairlogistics.com/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "FLY AIR LOGISTICS - Freight Forwarding Services Pakistan",
+      },
+    ],
   },
 };
 

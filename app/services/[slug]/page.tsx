@@ -77,6 +77,22 @@ export async function generateMetadata({
       description: service.metaDescription,
       url: `https://flyairlogistics.com/services/${service.slug}`,
       type: "website",
+      images: [
+        {
+          url: "https://flyairlogistics.com/og-image.jpg",
+          secureUrl: "https://flyairlogistics.com/og-image.jpg",
+          width: 1200,
+          height: 630,
+          type: "image/jpeg",
+          alt: service.title,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: service.metaTitle,
+      description: service.metaDescription,
+      images: ["https://flyairlogistics.com/og-image.jpg"],
     },
   };
 }
@@ -334,11 +350,11 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
                     <span>WhatsApp: +92 325 5577711</span>
                   </a>
                   <a
-                    href="mailto:flyairlogistics.official@gmail.com"
+                    href="mailto:contact@flyairlogistics.com"
                     className="flex items-center gap-2.5 text-gray-200 hover:text-white"
                   >
                     <Mail className="w-4 h-4 text-[#FF3B53]" />
-                    <span>flyairlogistics.official@gmail.com</span>
+                    <span>contact@flyairlogistics.com</span>
                   </a>
                 </div>
               </div>

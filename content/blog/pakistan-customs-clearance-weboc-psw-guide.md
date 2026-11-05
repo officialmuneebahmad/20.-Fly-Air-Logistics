@@ -53,5 +53,5 @@ With on-the-ground customs brokers stationed at Brandreth Road Lahore, Lahore Dr
 - **Duty & SRO Optimization:** We ensure your cargo leverages legitimate trade concessions (e.g., CPFTA, SAFTA, Generalized System of Preferences).
 - **Swift Terminal Coordination:** Instant port liaison to minimize terminal storage fees, demurrage, and container detention costs.
 
-Reach our customs desk directly at **flyairlogistics.official@gmail.com** or **+92 325 5577711**.
+Reach our customs desk directly at **contact@flyairlogistics.com** or **+92 325 5577711**.
 

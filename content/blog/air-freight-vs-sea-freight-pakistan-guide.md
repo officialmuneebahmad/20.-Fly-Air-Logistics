@@ -56,5 +56,5 @@ Fly Air Logistics provides customized multimodal solutions. Cargo is moved via e
 - Up to 50% faster transit compared to pure ocean freight.
 - Up to 40% cost reduction compared to pure air freight.
 
-Consult with our cargo planning specialists at **+92 325 5577711** or email **flyairlogistics.official@gmail.com** for a tailored route assessment.
+Consult with our cargo planning specialists at **+92 325 5577711** or email **contact@flyairlogistics.com** for a tailored route assessment.
 

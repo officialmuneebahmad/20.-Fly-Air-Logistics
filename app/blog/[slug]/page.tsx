@@ -61,11 +61,22 @@ export async function generateMetadata({
       type: "article",
       publishedTime: post.publishedAt,
       authors: [post.author],
+      images: [
+        {
+          url: "https://flyairlogistics.com/og-image.jpg",
+          secureUrl: "https://flyairlogistics.com/og-image.jpg",
+          width: 1200,
+          height: 630,
+          type: "image/jpeg",
+          alt: post.title,
+        },
+      ],
     },
     twitter: {
       card: "summary_large_image",
       title: post.title,
       description: post.description,
+      images: ["https://flyairlogistics.com/og-image.jpg"],
     },
   };
 }

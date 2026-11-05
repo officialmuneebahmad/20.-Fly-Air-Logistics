@@ -20,10 +20,16 @@ export const organizationSchema = {
   legalName: "Fly Air Logistics (International Freight Forwarders)",
   url: "https://flyairlogistics.com",
   logo: "https://flyairlogistics.com/logo.png",
+  image: "https://flyairlogistics.com/og-image.jpg",
+  founders: [
+    { "@type": "Person", name: "Zaka-ur-Rehman" },
+    { "@type": "Person", name: "Meeran Ahmad" },
+    { "@type": "Person", name: "Abdullah Rehman" },
+  ],
   description:
     "Moving Your Cargo Worldwide from Pakistan Since 2012 (Roots from 1980s). International air freight, sea freight, customs clearance, and door-to-door delivery.",
   telephone: "+923255577711",
-  email: "flyairlogistics.official@gmail.com",
+  email: "contact@flyairlogistics.com",
   address: {
     "@type": "PostalAddress",
     streetAddress: "84 Brandreth Road",
@@ -99,7 +105,7 @@ export function createServiceSchema(service: {
       name: "Fly Air Logistics",
       url: "https://flyairlogistics.com",
       telephone: "+923255577711",
-      email: "flyairlogistics.official@gmail.com",
+      email: "contact@flyairlogistics.com",
       address: {
         "@type": "PostalAddress",
         streetAddress: "84 Brandreth Road",

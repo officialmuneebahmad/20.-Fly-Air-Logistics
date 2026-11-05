@@ -61,5 +61,5 @@ Since 2012, with forwarding heritage dating back to the 1980s, Fly Air Logistics
 - Complete customs brokerage handled directly by experienced clearing agents at Lahore and Karachi.
 - Real-time milestone updates from pickup through terminal gates to port of discharge.
 
-Contact our export desk at **flyairlogistics.official@gmail.com** or via WhatsApp at **+92 325 5577711** to schedule your next export shipment.
+Contact our export desk at **contact@flyairlogistics.com** or via WhatsApp at **+92 325 5577711** to schedule your next export shipment.
 

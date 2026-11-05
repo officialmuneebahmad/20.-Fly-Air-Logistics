@@ -20,6 +20,15 @@ export const metadata: Metadata = {
     description:
       "Expert trade knowledge: export documentation, shipping cost optimization, and Pakistan customs procedures.",
     url: "https://flyairlogistics.com/blog",
+    images: [
+      {
+        url: "https://flyairlogistics.com/og-image.jpg",
+        secureUrl: "https://flyairlogistics.com/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Articles & Insights - Fly Air Logistics Pakistan",
+      },
+    ],
   },
 };
 

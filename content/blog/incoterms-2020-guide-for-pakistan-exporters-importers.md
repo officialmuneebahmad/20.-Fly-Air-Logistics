@@ -51,5 +51,5 @@ Misunderstanding Incoterms is among the leading causes of financial disputes, un
 2. **Explicitly Specify the Port or Location:** Never write just "FOB". Always write: *"FOB Karachi Port Trust, Pakistan (Incoterms 2020)"* or *"CIF Port of Hamburg, Germany (Incoterms 2020)"*.
 3. **Always Verify Cargo Insurance Coverage:** Standard carrier liability limits under the Hague-Visby Rules or Montreal Convention rarely cover the full commercial invoice value. Secure comprehensive All-Risk marine cargo insurance through Fly Air Logistics.
 
-Need guidance structuring the shipping terms in your commercial quotation or proforma invoice? Connect with our trade specialists at **flyairlogistics.official@gmail.com** or call **+92 325 5577711**.
+Need guidance structuring the shipping terms in your commercial quotation or proforma invoice? Connect with our trade specialists at **contact@flyairlogistics.com** or call **+92 325 5577711**.
 

@@ -113,13 +113,13 @@ export const ContactForm: React.FC = () => {
             </Button>
 
             <Button
-              href="mailto:flyairlogistics.official@gmail.com"
+              href="mailto:contact@flyairlogistics.com"
               variant="outline"
               size="md"
               className="gap-2"
             >
               <Mail className="w-4 h-4" />
-              <span>Email: flyairlogistics.official@gmail.com</span>
+              <span>Email: contact@flyairlogistics.com</span>
             </Button>
           </div>
         </div>
@@ -312,7 +312,7 @@ export const ContactForm: React.FC = () => {
             </a>
             <span>•</span>
             <a
-              href="mailto:flyairlogistics.official@gmail.com"
+              href="mailto:contact@flyairlogistics.com"
               className="font-semibold text-brand-black hover:text-brand-red flex items-center gap-1"
             >
               <Mail className="w-3.5 h-3.5 text-brand-red" />

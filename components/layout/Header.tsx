@@ -113,11 +113,11 @@ export const Header: React.FC = () => {
           {/* Right: Direct Hotlines */}
           <div className="flex items-center gap-6 text-xs font-medium">
             <a
-              href="mailto:flyairlogistics.official@gmail.com"
+              href="mailto:contact@flyairlogistics.com"
               className="flex items-center gap-2 text-gray-200 hover:text-white transition-colors"
             >
               <Mail className="w-3.5 h-3.5 text-[#FF3B53] flex-shrink-0" />
-              <span>flyairlogistics.official@gmail.com</span>
+              <span>contact@flyairlogistics.com</span>
             </a>
             <span className="text-gray-600">|</span>
             <a

@@ -82,7 +82,7 @@ export default function PrivacyPolicyPage() {
             <p className="mt-2 font-semibold text-brand-black">
               FLY AIR LOGISTICS<br />
               84 Brandreth Road, Lahore, Pakistan<br />
-              Email: flyairlogistics.official@gmail.com<br />
+              Email: contact@flyairlogistics.com<br />
               WhatsApp: +92 325 5577711
             </p>
           </div>

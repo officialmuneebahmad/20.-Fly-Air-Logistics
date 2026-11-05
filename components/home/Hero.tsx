@@ -169,10 +169,10 @@ export const Hero: React.FC = () => {
                   Direct Inquiries & Rate Verification:
                 </p>
                 <a
-                  href="mailto:flyairlogistics.official@gmail.com"
+                  href="mailto:contact@flyairlogistics.com"
                   className="text-xs text-[#FF3B53] font-bold hover:underline block mt-1"
                 >
-                  flyairlogistics.official@gmail.com
+                  contact@flyairlogistics.com
                 </a>
               </div>
             </div>

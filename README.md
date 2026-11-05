@@ -130,5 +130,5 @@ npm run deploy
 - **Head Office**: 84 Brandreth Road, Lahore, Pakistan
 - **Business Hours**: Monday – Saturday: 10:00 AM – 08:00 PM
 - **WhatsApp**: [+92 325 5577711](https://wa.me/923255577711)
-- **Email**: [flyairlogistics.official@gmail.com](mailto:flyairlogistics.official@gmail.com)
+- **Email**: [contact@flyairlogistics.com](mailto:contact@flyairlogistics.com)
 

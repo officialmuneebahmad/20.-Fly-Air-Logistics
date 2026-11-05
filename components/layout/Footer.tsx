@@ -75,6 +75,21 @@ export const Footer: React.FC = () => {
               foundational freight heritage originating in the 1980s.
             </p>
 
+            {/* Founders & Leadership Attribution */}
+            <div className="p-3.5 bg-brand-black-charcoal/40 border-l-2 border-[#FF3B53] space-y-1.5 max-w-sm">
+              <div className="flex items-center gap-2">
+                <span className="text-[11px] font-bold uppercase tracking-wider text-white">
+                  Founders &amp; Executive Leadership
+                </span>
+              </div>
+              <p className="text-xs text-white font-medium tracking-wide">
+                Zaka-ur-Rehman &bull; Meeran Ahmad &bull; Abdullah Rehman
+              </p>
+              <p className="text-[11px] text-brand-gray-400 leading-snug">
+                Pioneering international freight forwarding, air chartering, and customs clearance across Pakistan.
+              </p>
+            </div>
+
             <div className="pt-2 space-y-3 text-xs">
               <div className="flex items-start gap-3">
                 <MapPin className="w-4 h-4 text-[#FF3B53] flex-shrink-0 mt-0.5" />
@@ -91,10 +106,10 @@ export const Footer: React.FC = () => {
               <div className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-[#FF3B53] flex-shrink-0" />
                 <a
-                  href="mailto:flyairlogistics.official@gmail.com"
+                  href="mailto:contact@flyairlogistics.com"
                   className="text-gray-100 hover:text-white underline transition-colors"
                 >
-                  flyairlogistics.official@gmail.com
+                  contact@flyairlogistics.com
                 </a>
               </div>
               <div className="flex items-center gap-3">
@@ -215,6 +230,7 @@ export const Footer: React.FC = () => {
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
           <p>
             &copy; {new Date().getFullYear()} FLY AIR LOGISTICS. All rights reserved.
+            Founded by Zaka-ur-Rehman, Meeran Ahmad &amp; Abdullah Rehman.
             Headquartered at 84 Brandreth Road, Lahore, Pakistan.
           </p>
           <div className="flex items-center gap-5 text-xs">

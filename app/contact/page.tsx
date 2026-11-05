@@ -9,7 +9,7 @@ import { MapPin, Phone, Mail, Clock, MessageSquare } from "lucide-react";
 export const metadata: Metadata = {
   title: "Contact Us | 84 Brandreth Road, Lahore | Fly Air Logistics",
   description:
-    "Get in touch with Fly Air Logistics. Located at 84 Brandreth Road, Lahore, Pakistan. Call or WhatsApp +92 325 5577711 or email flyairlogistics.official@gmail.com. Hours: 10:00 AM - 08:00 PM.",
+    "Get in touch with Fly Air Logistics. Located at 84 Brandreth Road, Lahore, Pakistan. Call or WhatsApp +92 325 5577711 or email contact@flyairlogistics.com. Hours: 10:00 AM - 08:00 PM.",
   alternates: {
     canonical: "/contact",
   },
@@ -18,6 +18,15 @@ export const metadata: Metadata = {
     description:
       "Direct desk contact for international air freight, sea freight, and customs clearance inquiries. Located at 84 Brandreth Road, Lahore.",
     url: "https://flyairlogistics.com/contact",
+    images: [
+      {
+        url: "https://flyairlogistics.com/og-image.jpg",
+        secureUrl: "https://flyairlogistics.com/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Contact Fly Air Logistics - International Freight Forwarders",
+      },
+    ],
   },
 };
 

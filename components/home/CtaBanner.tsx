@@ -62,7 +62,7 @@ export const CtaBanner: React.FC = () => {
 
             {/* Email Button */}
             <Button
-              href="mailto:flyairlogistics.official@gmail.com"
+              href="mailto:contact@flyairlogistics.com"
               variant="white"
               size="lg"
               className="w-full gap-2.5 shadow-xl text-brand-black"

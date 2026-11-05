@@ -12,6 +12,7 @@ import {
   CheckCircle2,
   Anchor,
   Plane,
+  Users,
 } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -26,6 +27,15 @@ export const metadata: Metadata = {
     description:
       "Moving Your Cargo Worldwide from Pakistan Since 2012 (Roots from 1980s). Our history, mission, leadership, and operational capabilities.",
     url: "https://flyairlogistics.com/about",
+    images: [
+      {
+        url: "https://flyairlogistics.com/og-image.jpg",
+        secureUrl: "https://flyairlogistics.com/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "About Fly Air Logistics - International Freight Forwarders",
+      },
+    ],
   },
 };
 
@@ -215,6 +225,77 @@ export default function AboutPage() {
                   <span>Bridging regional exporters with emerging global trade hubs</span>
                 </li>
               </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Founders & Executive Leadership */}
+      <section className="py-20 sm:py-24 bg-brand-gray-50 border-b border-brand-gray-200 px-4 sm:px-6 lg:px-12">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center max-w-3xl mx-auto mb-16 space-y-3">
+            <div className="inline-block text-xs font-bold uppercase tracking-widest text-brand-red bg-brand-red/10 px-3.5 py-1.5">
+              Executive Leadership
+            </div>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-heading font-black uppercase tracking-tight text-brand-black">
+              Company Founders
+            </h2>
+            <WingDivider centered />
+            <p className="text-sm text-brand-gray-600 mt-3 leading-relaxed">
+              Guided by four decades of Pakistani logistics heritage, our founding leadership oversees every critical corridor in international air cargo, ocean shipping, and nationwide customs clearance.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="bg-white border-2 border-brand-gray-200 p-8 space-y-4 hover:border-brand-red transition-all">
+              <div className="w-12 h-12 bg-brand-black text-white flex items-center justify-center font-black text-lg">
+                ZR
+              </div>
+              <div>
+                <h3 className="text-lg font-heading font-black uppercase tracking-wide text-brand-black">
+                  Zaka-ur-Rehman
+                </h3>
+                <p className="text-xs font-bold uppercase tracking-wider text-brand-red mt-1">
+                  Co-Founder &amp; Executive Leadership
+                </p>
+              </div>
+              <p className="text-xs text-brand-gray-600 leading-relaxed pt-2 border-t border-brand-gray-100">
+                Foundational freight visionary with deep roots in Brandreth Road logistics dating back to the 1980s, steering bilateral air and sea forwarding corridors.
+              </p>
+            </div>
+
+            <div className="bg-white border-2 border-brand-gray-200 p-8 space-y-4 hover:border-brand-red transition-all">
+              <div className="w-12 h-12 bg-brand-black text-white flex items-center justify-center font-black text-lg">
+                MA
+              </div>
+              <div>
+                <h3 className="text-lg font-heading font-black uppercase tracking-wide text-brand-black">
+                  Meeran Ahmad
+                </h3>
+                <p className="text-xs font-bold uppercase tracking-wider text-brand-red mt-1">
+                  Co-Founder &amp; Executive Leadership
+                </p>
+              </div>
+              <p className="text-xs text-brand-gray-600 leading-relaxed pt-2 border-t border-brand-gray-100">
+                Spearheading multimodal shipping operations, carrier rate negotiations, and port clearance networks across Karachi, Lahore, and Islamabad gateways.
+              </p>
+            </div>
+
+            <div className="bg-white border-2 border-brand-gray-200 p-8 space-y-4 hover:border-brand-red transition-all">
+              <div className="w-12 h-12 bg-brand-black text-white flex items-center justify-center font-black text-lg">
+                AR
+              </div>
+              <div>
+                <h3 className="text-lg font-heading font-black uppercase tracking-wide text-brand-black">
+                  Abdullah Rehman
+                </h3>
+                <p className="text-xs font-bold uppercase tracking-wider text-brand-red mt-1">
+                  Co-Founder &amp; Executive Leadership
+                </p>
+              </div>
+              <p className="text-xs text-brand-gray-600 leading-relaxed pt-2 border-t border-brand-gray-100">
+                Driving corporate partnerships, global agency networks, digital customs compliance (PSW/WeBOC), and tailored enterprise supply chain solutions.
+              </p>
             </div>
           </div>
         </div>

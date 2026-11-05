@@ -60,10 +60,10 @@ export const ContactInfo: React.FC = () => {
             <div>
               <div className="font-bold text-white uppercase">Official Email:</div>
               <a
-                href="mailto:flyairlogistics.official@gmail.com"
+                href="mailto:contact@flyairlogistics.com"
                 className="mt-0.5 text-gray-200 hover:text-white block underline transition-colors"
               >
-                flyairlogistics.official@gmail.com
+                contact@flyairlogistics.com
               </a>
             </div>
           </div>

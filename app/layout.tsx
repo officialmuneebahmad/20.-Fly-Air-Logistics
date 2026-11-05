@@ -62,19 +62,21 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/logo.png",
+        url: "https://flyairlogistics.com/og-image.jpg",
+        secureUrl: "https://flyairlogistics.com/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "FLY AIR LOGISTICS - International Freight Forwarders",
+        type: "image/jpeg",
+        alt: "FLY AIR LOGISTICS - International Freight Forwarders Pakistan",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "FLY AIR LOGISTICS | International Freight Forwarders",
+    title: "FLY AIR LOGISTICS | International Freight Forwarders Pakistan",
     description:
-      "Moving Your Cargo Worldwide from Pakistan Since 2012 (Roots from 1980s).",
-    images: ["/logo.png"],
+      "Moving Your Cargo Worldwide from Pakistan Since 2012 (Roots from 1980s). Premier air and sea freight forwarders.",
+    images: ["https://flyairlogistics.com/og-image.jpg"],
   },
   robots: {
     index: true,
@@ -97,6 +99,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.variable}>
       <head>
+        <link rel="image_src" href="https://flyairlogistics.com/og-image.jpg" />
         <JsonLd data={organizationSchema} />
         <JsonLd data={websiteSchema} />
       </head>
