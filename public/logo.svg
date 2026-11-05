@@ -1,0 +1,15 @@
+<svg width="600" height="200" viewBox="0 0 600 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="200" fill="#0F1115" />
+  <!-- Wing Graphic -->
+  <g transform="translate(40, 50)">
+    <path d="M4 28L88 8C110 3 126 18 120 40L96 48C104 32 92 22 76 26L20 40L4 28Z" fill="#C8102E" />
+    <path d="M12 52L96 32C116 27 128 42 122 62L100 70C106 56 96 46 82 50L28 64L12 52Z" fill="#FFFFFF" />
+    <path d="M24 76L104 56C120 52 128 66 124 82L106 90C110 78 102 70 88 74L36 86L24 76Z" fill="#C8102E" />
+  </g>
+  <!-- Text -->
+  <text x="180" y="105" font-family="Inter, sans-serif" font-weight="900" font-size="46" fill="#C8102E">FLY AIR</text>
+  <text x="360" y="105" font-family="Inter, sans-serif" font-weight="900" font-size="46" fill="#FFFFFF">LOGISTICS</text>
+  <line x1="180" y1="125" x2="540" y2="125" stroke="#C8102E" stroke-width="2" />
+  <text x="180" y="145" font-family="Inter, sans-serif" font-weight="700" font-size="14" letter-spacing="4" fill="#CCCCCC">INTERNATIONAL FREIGHT FORWARDERS</text>
+</svg>
+

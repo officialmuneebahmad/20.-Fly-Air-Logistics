@@ -1,0 +1,33 @@
+{
+  "name": "fly-air-logistics",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "prebuild": "node scripts/generate-blog.mjs",
+    "dev": "node scripts/generate-blog.mjs && next dev",
+    "build": "node scripts/generate-blog.mjs && next build",
+    "start": "next start",
+    "build:worker": "opennextjs-cloudflare build",
+    "preview": "opennextjs-cloudflare preview",
+    "deploy": "opennextjs-cloudflare deploy"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "lucide-react": "^0.475.0",
+    "next": "15.5.29",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@opennextjs/cloudflare": "^1.20.16",
+    "@tailwindcss/typography": "^0.5.16",
+    "@types/node": "^22.13.0",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.3",
+    "wrangler": "^4.148.0"
+  }
+}

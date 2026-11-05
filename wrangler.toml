@@ -1,0 +1,25 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "fly-air-logistics"
+main = ".open-next/worker.js"
+compatibility_date = "2024-11-01"
+compatibility_flags = ["nodejs_compat"]
+
+[assets]
+directory = ".open-next/assets"
+binding = "ASSETS"
+
+# Cloudflare R2 bucket binding for asset/image serving
+[[r2_buckets]]
+binding = "R2_BUCKET"
+bucket_name = "flyair-assets"
+
+# Cloudflare D1 Database binding for contact form persistence
+[[d1_databases]]
+binding = "DB"
+database_name = "flyair-db"
+database_id = "00000000-0000-0000-0000-000000000000"
+
+[vars]
+NEXTJS_ENV = "production"
+NEXT_PUBLIC_SITE_URL = "https://flyairlogistics.com"
+
